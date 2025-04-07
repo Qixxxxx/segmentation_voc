@@ -1,5 +1,5 @@
 import torch
-from nets.net_1 import MyNet
+from nets.net_fcn import MyNet
 from torchsummary import summary
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
